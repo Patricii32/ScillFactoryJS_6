@@ -1,4 +1,4 @@
 const func = (x,n) => {
-  return Math.pow(x,n);}
-const result = func(2,6);
-console.log(result);
+  return Math.pow(x,n);
+}
+console.log(func(2,6));
