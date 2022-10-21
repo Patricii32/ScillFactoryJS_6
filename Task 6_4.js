@@ -13,13 +13,12 @@ func(5,15)
 
 /* Альтернативное решение с помощью setTimeout*/
 function func(a, b) {
-	let current = a;
-	setTimeout(function start() {
-		console.log(current);
-		if (current < b) {
+	setTimeout(function start(){
+		console.log(a);
+		if (a < b) {
 			setTimeout(start, 1000);
 		}
-		current++;
+		a++;
 	}, 1000);
 }
 func(5, 15);
