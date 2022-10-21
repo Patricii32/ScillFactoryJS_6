@@ -4,7 +4,7 @@ let b = 0;
 let c = 0;
 let d = 0;
 function getType(){
-  for(let i=0; i < 7; i++){
+  for(let i=0; i < arr.length; i++){
     if (arr[i] % 2 == 0 && arr[i] !== 0){
         a = a + 1;
       } else if(arr[i] % 2 == 1){
